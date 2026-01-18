@@ -1,0 +1,1112 @@
+{
+  "meta": {
+    "name": "Banco CGR – Competencias Básicas – Constitución Política (30 preguntas)",
+    "version": "1.0.0",
+    "createdAt": "2026-01-18",
+    "axisOrder": 1,
+    "totalQuestions": 30,
+    "notes": "Banco de práctica alineado a ejes temáticos oficiales. Preguntas originales, no oficiales. JSON válido (sin comentarios)."
+  },
+  "questions": [
+    {
+      "id": "CB-CONST-001",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad pública diseña un procedimiento interno para atender solicitudes ciudadanas.",
+      "question": "¿Qué principio exige que las autoridades actúen únicamente conforme a la Constitución y la ley?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Principio de legalidad"
+        },
+        {
+          "id": "B",
+          "text": "Principio de solidaridad"
+        },
+        {
+          "id": "C",
+          "text": "Principio de favorabilidad"
+        },
+        {
+          "id": "D",
+          "text": "Principio de autonomía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "El principio de legalidad rige la función pública: toda actuación requiere competencia y fundamento normativo.",
+      "references": [],
+      "tags": [
+        "legalidad",
+        "función pública"
+      ]
+    },
+    {
+      "id": "CB-CONST-002",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una decisión administrativa beneficia a un grupo reducido afectando a la colectividad.",
+      "question": "¿Qué principio se vulnera principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economía"
+        },
+        {
+          "id": "B",
+          "text": "Prevalencia del interés general"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía territorial"
+        },
+        {
+          "id": "D",
+          "text": "Eficacia"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "En el Estado Social de Derecho, el interés general orienta la actuación de las autoridades y prima sobre intereses particulares.",
+      "references": [],
+      "tags": [
+        "interés general"
+      ]
+    },
+    {
+      "id": "CB-CONST-003",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad aplica reglas diferentes a dos ciudadanos en situaciones equivalentes sin justificación.",
+      "question": "¿Qué principio/derecho se afecta de forma directa?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Debido proceso"
+        },
+        {
+          "id": "B",
+          "text": "Igualdad"
+        },
+        {
+          "id": "C",
+          "text": "Intimidad"
+        },
+        {
+          "id": "D",
+          "text": "Libertad de empresa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Tratar de forma distinta casos equivalentes sin justificación razonable afecta el principio/derecho a la igualdad.",
+      "references": [],
+      "tags": [
+        "igualdad"
+      ]
+    },
+    {
+      "id": "CB-CONST-004",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una autoridad debe resolver un trámite evitando pasos innecesarios, sin sacrificar el cumplimiento normativo.",
+      "question": "¿Qué principio orienta reducir cargas y trámites innecesarios?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Celeridad y economía"
+        },
+        {
+          "id": "B",
+          "text": "Imparcialidad"
+        },
+        {
+          "id": "C",
+          "text": "Publicidad"
+        },
+        {
+          "id": "D",
+          "text": "Separación de poderes"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Economía y celeridad buscan que la administración actúe con eficiencia, evitando actuaciones inútiles y demoras injustificadas.",
+      "references": [],
+      "tags": [
+        "economía",
+        "celeridad"
+      ]
+    },
+    {
+      "id": "CB-CONST-005",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Un funcionario recibe presión para tomar una decisión sin motivación escrita, 'porque siempre se ha hecho así'.",
+      "question": "¿Qué exigencia se relaciona con justificar decisiones para permitir control ciudadano y judicial?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Motivación y publicidad del acto"
+        },
+        {
+          "id": "B",
+          "text": "Reserva absoluta de información"
+        },
+        {
+          "id": "C",
+          "text": "Discrecionalidad ilimitada"
+        },
+        {
+          "id": "D",
+          "text": "Inmunidad administrativa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La motivación y publicidad permiten transparencia y control: la autoridad debe explicar razones y soportes de su decisión.",
+      "references": [],
+      "tags": [
+        "motivación",
+        "publicidad"
+      ]
+    },
+    {
+      "id": "CB-CONST-006",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad aplica una norma sancionatoria nueva a hechos ocurridos antes de su vigencia.",
+      "question": "¿Qué principio se afecta principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Autonomía"
+        },
+        {
+          "id": "B",
+          "text": "Irretroactividad (en materia sancionatoria)"
+        },
+        {
+          "id": "C",
+          "text": "Solidaridad"
+        },
+        {
+          "id": "D",
+          "text": "Subsidiariedad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "En materia sancionatoria rige la regla de no aplicar normas más gravosas a hechos anteriores; se protege la seguridad jurídica.",
+      "references": [],
+      "tags": [
+        "irretroactividad",
+        "seguridad jurídica"
+      ]
+    },
+    {
+      "id": "CB-CONST-007",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un servidor público decide un trámite donde tiene un interés personal directo.",
+      "question": "¿Qué principio debe guiar la actuación para evitar conflicto de interés?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Imparcialidad"
+        },
+        {
+          "id": "B",
+          "text": "Eficacia"
+        },
+        {
+          "id": "C",
+          "text": "Descentralización"
+        },
+        {
+          "id": "D",
+          "text": "Participación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La imparcialidad exige decidir sin sesgos por intereses particulares; ante conflicto de interés, debe gestionarse conforme a reglas aplicables.",
+      "references": [],
+      "tags": [
+        "imparcialidad",
+        "conflicto de interés"
+      ]
+    },
+    {
+      "id": "CB-CONST-008",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad presta un servicio público y debe garantizar acceso sin discriminación.",
+      "question": "¿Qué enfoque se relaciona con remover barreras para garantizar acceso real?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Igualdad material"
+        },
+        {
+          "id": "B",
+          "text": "Confidencialidad absoluta"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía territorial"
+        },
+        {
+          "id": "D",
+          "text": "Libertad económica"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La igualdad material exige remover barreras y, cuando corresponda, adoptar medidas para garantizar acceso real y efectivo.",
+      "references": [],
+      "tags": [
+        "igualdad material",
+        "inclusión"
+      ]
+    },
+    {
+      "id": "CB-CONST-009",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Un ciudadano presenta una solicitud respetuosa ante una entidad y espera respuesta.",
+      "question": "¿Qué derecho fundamental ejerce directamente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Derecho a la igualdad"
+        },
+        {
+          "id": "B",
+          "text": "Derecho de petición"
+        },
+        {
+          "id": "C",
+          "text": "Derecho al trabajo"
+        },
+        {
+          "id": "D",
+          "text": "Derecho a la intimidad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El derecho de petición permite presentar solicitudes respetuosas y obtener respuesta oportuna y de fondo.",
+      "references": [],
+      "tags": [
+        "derecho de petición"
+      ]
+    },
+    {
+      "id": "CB-CONST-010",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad impone una sanción sin permitir descargos ni aportar pruebas.",
+      "question": "¿Qué derecho se vulnera principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Debido proceso"
+        },
+        {
+          "id": "B",
+          "text": "Libre locomoción"
+        },
+        {
+          "id": "C",
+          "text": "Asociación"
+        },
+        {
+          "id": "D",
+          "text": "Recreación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "El debido proceso aplica a actuaciones administrativas y exige defensa, contradicción y decisión motivada.",
+      "references": [],
+      "tags": [
+        "debido proceso"
+      ]
+    },
+    {
+      "id": "CB-CONST-011",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un servidor público divulga datos sensibles de un ciudadano sin autorización ni finalidad legítima.",
+      "question": "¿Qué derecho se afecta principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Intimidad y habeas data"
+        },
+        {
+          "id": "B",
+          "text": "Trabajo"
+        },
+        {
+          "id": "C",
+          "text": "Reunión"
+        },
+        {
+          "id": "D",
+          "text": "Educación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La intimidad y la protección de datos exigen tratamiento legítimo, finalidad y autorización según reglas aplicables.",
+      "references": [],
+      "tags": [
+        "intimidad",
+        "habeas data"
+      ]
+    },
+    {
+      "id": "CB-CONST-012",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad niega injustificadamente acceso a información pública ya disponible.",
+      "question": "¿Qué derecho se relaciona más directamente con el acceso a información?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Derecho a la información"
+        },
+        {
+          "id": "B",
+          "text": "Derecho a la vida"
+        },
+        {
+          "id": "C",
+          "text": "Derecho al deporte"
+        },
+        {
+          "id": "D",
+          "text": "Derecho a la vivienda"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "El acceso a información pública se vincula al derecho a la información y a la transparencia estatal.",
+      "references": [],
+      "tags": [
+        "información pública"
+      ]
+    },
+    {
+      "id": "CB-CONST-013",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una autoridad trata de forma discriminatoria a una persona por su origen o condición.",
+      "question": "¿Qué enunciado es constitucionalmente correcto?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La discriminación es válida si mejora indicadores"
+        },
+        {
+          "id": "B",
+          "text": "Debe garantizarse igualdad y prohibición de discriminación"
+        },
+        {
+          "id": "C",
+          "text": "Solo aplica en el sector privado"
+        },
+        {
+          "id": "D",
+          "text": "Depende del rango del funcionario"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La Constitución protege la igualdad y prohíbe discriminación; exige trato igual y medidas para igualdad real cuando aplique.",
+      "references": [],
+      "tags": [
+        "no discriminación",
+        "igualdad"
+      ]
+    },
+    {
+      "id": "CB-CONST-014",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una decisión estatal afecta derechos de una persona sin permitirle conocer el expediente.",
+      "question": "¿Qué garantía es clave para ejercer defensa efectiva?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acceso al expediente y posibilidad de contradicción"
+        },
+        {
+          "id": "B",
+          "text": "Secreto total del trámite"
+        },
+        {
+          "id": "C",
+          "text": "Decisión verbal sin soporte"
+        },
+        {
+          "id": "D",
+          "text": "Ausencia de recursos"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Conocer el expediente y controvertir pruebas son componentes del debido proceso y la defensa.",
+      "references": [],
+      "tags": [
+        "defensa",
+        "contradicción"
+      ]
+    },
+    {
+      "id": "CB-CONST-015",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una persona es retenida por una autoridad sin informarle motivos ni autoridad competente.",
+      "question": "¿Qué garantía se afecta principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Libertad personal y legalidad de la privación"
+        },
+        {
+          "id": "B",
+          "text": "Derecho al voto"
+        },
+        {
+          "id": "C",
+          "text": "Derecho al ocio"
+        },
+        {
+          "id": "D",
+          "text": "Derecho al comercio"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La libertad personal exige que cualquier privación esté legalmente justificada y se informen motivos y autoridad competente.",
+      "references": [],
+      "tags": [
+        "libertad personal"
+      ]
+    },
+    {
+      "id": "CB-CONST-016",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Una entidad limita el acceso a un servicio por una condición de salud sin evaluación objetiva ni ajustes razonables.",
+      "question": "¿Qué combinación refleja mejor el análisis constitucional?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Solo eficiencia, no igualdad"
+        },
+        {
+          "id": "B",
+          "text": "Igualdad + dignidad humana + no discriminación"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía territorial"
+        },
+        {
+          "id": "D",
+          "text": "Reserva legal inexistente"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La dignidad humana y la igualdad prohíben discriminación y exigen ajustes razonables cuando corresponda para acceso efectivo.",
+      "references": [],
+      "tags": [
+        "dignidad",
+        "igualdad",
+        "ajustes razonables"
+      ]
+    },
+    {
+      "id": "CB-CONST-017",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un derecho fundamental está siendo vulnerado y no existe otro medio judicial eficaz.",
+      "question": "¿Qué mecanismo constitucional procede?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción popular"
+        },
+        {
+          "id": "B",
+          "text": "Acción de tutela"
+        },
+        {
+          "id": "C",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "D",
+          "text": "Acción de inconstitucionalidad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela es un mecanismo preferente y sumario para protección inmediata de derechos fundamentales.",
+      "references": [],
+      "tags": [
+        "tutela"
+      ]
+    },
+    {
+      "id": "CB-CONST-018",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una autoridad incumple un deber claro establecido en una norma con fuerza material de ley.",
+      "question": "¿Qué acción busca hacer efectivo el cumplimiento de una norma aplicable?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de cumplimiento"
+        },
+        {
+          "id": "B",
+          "text": "Acción de tutela"
+        },
+        {
+          "id": "C",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "D",
+          "text": "Habeas data"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La acción de cumplimiento procura que la autoridad cumpla una norma o acto administrativo aplicable, según requisitos.",
+      "references": [],
+      "tags": [
+        "acción de cumplimiento"
+      ]
+    },
+    {
+      "id": "CB-CONST-019",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se busca proteger derechos colectivos como el medio ambiente, el espacio público o la moralidad administrativa.",
+      "question": "¿Qué acción es la más adecuada?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de tutela"
+        },
+        {
+          "id": "B",
+          "text": "Acción popular"
+        },
+        {
+          "id": "C",
+          "text": "Habeas data"
+        },
+        {
+          "id": "D",
+          "text": "Acción de inconstitucionalidad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Las acciones populares protegen derechos e intereses colectivos y permiten medidas preventivas o correctivas.",
+      "references": [],
+      "tags": [
+        "acción popular",
+        "derechos colectivos"
+      ]
+    },
+    {
+      "id": "CB-CONST-020",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Varias personas sufrieron un daño por el mismo hecho y buscan reparación conjunta.",
+      "question": "¿Qué mecanismo se asocia más a reclamar indemnización por perjuicios a un grupo?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "B",
+          "text": "Acción popular"
+        },
+        {
+          "id": "C",
+          "text": "Tutela"
+        },
+        {
+          "id": "D",
+          "text": "Habeas corpus"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La acción de grupo se orienta a la reparación de perjuicios causados a un conjunto de personas por un mismo hecho.",
+      "references": [],
+      "tags": [
+        "acción de grupo"
+      ]
+    },
+    {
+      "id": "CB-CONST-021",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una persona es privada de la libertad de manera presuntamente ilegal y requiere control judicial inmediato.",
+      "question": "¿Qué mecanismo procede?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de tutela"
+        },
+        {
+          "id": "B",
+          "text": "Habeas corpus"
+        },
+        {
+          "id": "C",
+          "text": "Acción de cumplimiento"
+        },
+        {
+          "id": "D",
+          "text": "Acción popular"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El habeas corpus protege la libertad personal frente a privaciones ilegales, con trámite urgente.",
+      "references": [],
+      "tags": [
+        "habeas corpus"
+      ]
+    },
+    {
+      "id": "CB-CONST-022",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Un ciudadano considera que una ley viola la Constitución y busca control abstracto de constitucionalidad.",
+      "question": "¿Qué acción corresponde a ese propósito?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de inconstitucionalidad"
+        },
+        {
+          "id": "B",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "C",
+          "text": "Habeas data"
+        },
+        {
+          "id": "D",
+          "text": "Acción de cumplimiento"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La acción pública de inconstitucionalidad permite solicitar control de normas por contradecir la Constitución, según reglas.",
+      "references": [],
+      "tags": [
+        "inconstitucionalidad"
+      ]
+    },
+    {
+      "id": "CB-CONST-023",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Organización del Estado",
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Se analiza la estructura del Estado colombiano.",
+      "question": "La Contraloría General de la República es un:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Órgano de control"
+        },
+        {
+          "id": "B",
+          "text": "Órgano legislativo"
+        },
+        {
+          "id": "C",
+          "text": "Órgano judicial"
+        },
+        {
+          "id": "D",
+          "text": "Órgano de la Rama Ejecutiva"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La CGR integra los órganos de control y ejerce vigilancia de la gestión fiscal en los términos constitucionales.",
+      "references": [],
+      "tags": [
+        "órganos de control",
+        "CGR"
+      ]
+    },
+    {
+      "id": "CB-CONST-024",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Organización del Estado",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad necesita diferenciar funciones de órganos de control.",
+      "question": "¿Cuál afirmación describe mejor la Procuraduría frente a la Contraloría?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ambas juzgan delitos penales"
+        },
+        {
+          "id": "B",
+          "text": "Procuraduría: control disciplinario/Ministerio Público; Contraloría: control fiscal"
+        },
+        {
+          "id": "C",
+          "text": "Contraloría: control disciplinario; Procuraduría: control fiscal"
+        },
+        {
+          "id": "D",
+          "text": "Ambas administran justicia contenciosa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Se distinguen competencias: el control disciplinario/Ministerio Público no es lo mismo que el control fiscal sobre recursos públicos.",
+      "references": [],
+      "tags": [
+        "órganos de control",
+        "competencias"
+      ]
+    },
+    {
+      "id": "CB-CONST-025",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Organización del Estado",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se requiere saber quién ejerce control político sobre el Gobierno.",
+      "question": "¿Qué órgano ejerce control político en el sistema constitucional colombiano?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congreso de la República"
+        },
+        {
+          "id": "B",
+          "text": "Contraloría General"
+        },
+        {
+          "id": "C",
+          "text": "Corte Constitucional"
+        },
+        {
+          "id": "D",
+          "text": "Fiscalía General"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "El control político corresponde principalmente al Congreso mediante herramientas constitucionales de control.",
+      "references": [],
+      "tags": [
+        "control político",
+        "Congreso"
+      ]
+    },
+    {
+      "id": "CB-CONST-026",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Organización del Estado",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se discute si un órgano pertenece a una rama del poder público o es autónomo.",
+      "question": "¿Cuál opción contiene un ejemplo típico de órgano autónomo/independiente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ministerio de Hacienda"
+        },
+        {
+          "id": "B",
+          "text": "Alcaldía Municipal"
+        },
+        {
+          "id": "C",
+          "text": "Banco de la República"
+        },
+        {
+          "id": "D",
+          "text": "Ministerio de Educación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "C"
+      },
+      "explanation": "El Banco de la República es un órgano con autonomía según el diseño constitucional, distinto de ministerios de la Rama Ejecutiva.",
+      "references": [],
+      "tags": [
+        "autonomía",
+        "órganos autónomos"
+      ]
+    },
+    {
+      "id": "CB-CONST-027",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una empresa privada ejecuta un contrato y administra anticipos y bienes del Estado.",
+      "question": "¿Puede estar sujeta a control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No, porque es privada"
+        },
+        {
+          "id": "B",
+          "text": "Sí, si maneja fondos o bienes públicos"
+        },
+        {
+          "id": "C",
+          "text": "Solo si recibe donaciones"
+        },
+        {
+          "id": "D",
+          "text": "Solo si cotiza en bolsa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal puede abarcar a particulares cuando administran fondos o bienes públicos en cualquier modalidad.",
+      "references": [],
+      "tags": [
+        "sujetos de control",
+        "particulares"
+      ]
+    },
+    {
+      "id": "CB-CONST-028",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "En un plan de auditoría se decide revisar áreas de mayor riesgo y materialidad.",
+      "question": "¿Qué característica constitucional del control fiscal respalda esta decisión?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Previo"
+        },
+        {
+          "id": "B",
+          "text": "Selectivo"
+        },
+        {
+          "id": "C",
+          "text": "Penal"
+        },
+        {
+          "id": "D",
+          "text": "Discrecional ilimitado"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El carácter selectivo permite focalizar recursos de control donde hay mayor riesgo, impacto o materialidad.",
+      "references": [],
+      "tags": [
+        "selectividad",
+        "riesgo"
+      ]
+    },
+    {
+      "id": "CB-CONST-029",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Control fiscal",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Durante una auditoría se identifica un posible detrimento patrimonial, pero falta soporte verificable.",
+      "question": "¿Qué paso es más adecuado antes de formalizar un hallazgo?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Publicar el hallazgo sin evidencia"
+        },
+        {
+          "id": "B",
+          "text": "Asegurar evidencia suficiente y adecuada: soportes, trazabilidad y análisis técnico"
+        },
+        {
+          "id": "C",
+          "text": "Eliminar documentos para evitar discusión"
+        },
+        {
+          "id": "D",
+          "text": "Basarse en testimonios sin corroboración"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Los hallazgos deben sustentarse en evidencia suficiente y adecuada, con análisis técnico y trazabilidad.",
+      "references": [],
+      "tags": [
+        "evidencia",
+        "hallazgos"
+      ]
+    },
+    {
+      "id": "CB-CONST-030",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se confunden responsabilidades de auditoría fiscal con investigación penal.",
+      "question": "¿Cuál enunciado es correcto?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La Contraloría impone penas de prisión"
+        },
+        {
+          "id": "B",
+          "text": "El control fiscal vigila gestión de recursos; lo penal corresponde a autoridades competentes"
+        },
+        {
+          "id": "C",
+          "text": "El control fiscal reemplaza el control judicial"
+        },
+        {
+          "id": "D",
+          "text": "La Contraloría dicta sentencias penales"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal evalúa la gestión de recursos públicos; las consecuencias penales se tramitan ante autoridades judiciales según competencias.",
+      "references": [],
+      "tags": [
+        "competencias",
+        "control fiscal"
+      ]
+    }
+  ]
+}

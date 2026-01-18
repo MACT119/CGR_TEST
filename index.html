@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulador CGR (Offline)</title>
+  <meta name="description" content="Simulador de práctica (no oficial) para preparación de pruebas de ingreso y méritos. Funciona sin servidor." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">🧠</div>
+      <div>
+        <div class="title">Simulador CGR (Offline)</div>
+        <div class="subtitle">Práctica no oficial • sin servidor • funciona en el navegador</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="btnReset" class="btn btn-ghost" type="button" title="Borrar progreso">Reiniciar</button>
+      <button id="btnExport" class="btn btn-ghost" type="button" title="Exportar progreso">Exportar</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card notice" role="note">
+      <div class="notice-title">Importante</div>
+      <p>
+        Este simulador es <strong>solo para estudio</strong>. <strong>No</strong> contiene preguntas oficiales del concurso.
+        Las pruebas oficiales tienen reglas de <em>reserva</em> y no deben transcribirse ni reproducirse.
+      </p>
+      <details>
+        <summary>Cómo usar (modo sin servidor)</summary>
+        <ol>
+          <li>Abre <code>index.html</code> desde tu celular (Chrome/Edge/Safari).</li>
+          <li>El simulador trae un banco de preguntas <em>de ejemplo</em> para probar la app.</li>
+          <li>Cuando quieras, reemplaza el banco importando un archivo <code>questions.json</code> propio.</li>
+        </ol>
+      </details>
+    </section>
+
+    <section class="card">
+      <div class="grid">
+        <div>
+          <h2>Configurar simulacro</h2>
+          <div class="field">
+            <label for="selMode">Modo</label>
+            <select id="selMode">
+              <option value="practice">Entrenamiento (feedback por pregunta)</option>
+              <option value="mock">Simulacro (resultado al final)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="selAxis">Eje / Módulo</label>
+            <select id="selAxis"></select>
+          </div>
+          <div class="field">
+            <label for="numCount">Cantidad de preguntas</label>
+            <input id="numCount" type="number" min="5" max="100" step="1" value="10" />
+            <div class="help">El sistema tomará preguntas aleatorias del eje seleccionado.</div>
+          </div>
+          <div class="field">
+            <label for="chkTimer">Cronómetro</label>
+            <div class="row">
+              <input id="chkTimer" type="checkbox" />
+              <span>Activar tiempo (minutos):</span>
+              <input id="numMinutes" type="number" min="1" max="240" value="15" />
+            </div>
+          </div>
+          <div class="row">
+            <button id="btnStart" class="btn btn-primary" type="button">Iniciar</button>
+            <label class="file">
+              <input id="fileImport" type="file" accept="application/json" />
+              <span class="btn">Importar preguntas (JSON)</span>
+            </label>
+          </div>
+          <div class="small muted" id="bankInfo"></div>
+        </div>
+
+        <div>
+          <h2>Progreso</h2>
+          <div class="kpi" style="margin-top:8px">
+            <div class="box">
+              <div class="num" id="kpiTotal">0</div>
+              <div class="lbl">Preguntas en banco</div>
+            </div>
+            <div class="box">
+              <div class="num" id="kpiScore">—</div>
+              <div class="lbl">Último resultado</div>
+            </div>
+            <div class="box">
+              <div class="num" id="kpiStreak">—</div>
+              <div class="lbl">Racha (≥70%)</div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <h3>Historial reciente</h3>
+          <div id="historyBox" class="history muted small">(En esta versión demo no se muestra el historial en pantalla. Se conserva localmente y se exporta.)</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card hidden" id="quizCard" aria-live="polite">
+      <div class="quiz-top">
+        <div>
+          <div class="pill" id="qAxis"></div>
+          <h2 id="qTitle">Pregunta</h2>
+          <div class="muted" id="qMeta">
+            <span id="qIndex">1</span>/<span id="qTotal">1</span>
+            <span class="muted">•</span>
+            <span id="qModule"></span>
+          </div>
+        </div>
+        <div class="timer" id="timerBadge">
+          <div class="timer-label">Tiempo</div>
+          <div class="timer-value" id="timerText">—</div>
+        </div>
+      </div>
+
+      <div class="stem" id="qStem"></div>
+      <div class="question" id="qText"></div>
+
+      <form id="choicesForm" class="choices"></form>
+
+      <div class="feedback hidden" id="feedbackBox"></div>
+
+      <div class="divider"></div>
+      <div class="row" style="justify-content:space-between;gap:10px;flex-wrap:wrap">
+        <div class="row" style="gap:12px;flex-wrap:wrap">
+          <span class="badge">Respondidas: <strong id="statAnswered">0</strong></span>
+          <span class="badge">Restantes: <strong id="statRemaining">0</strong></span>
+          <span class="badge">Marcadas: <strong id="statFlagged">0</strong></span>
+        </div>
+      </div>
+      <div id="progressList" class="row" style="flex-wrap:wrap;gap:6px;margin-top:10px"></div>
+
+      <div class="row space-between">
+        <button id="btnPrev" class="btn btn-ghost" type="button">Anterior</button>
+        <div class="row">
+          <button id="btnFlag" class="btn" type="button" title="Marcar para repasar">Marcar</button>
+          <button id="btnNext" class="btn btn-primary" type="button">Siguiente</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card hidden" id="resultCard">
+      <h2>Resultado</h2>
+      <div id="resultSummary" class="result"></div>
+      <div class="divider"></div>
+      <h3>Detalle por eje</h3>
+      <div id="resultByAxis" class="result"></div>
+      <div class="divider"></div>
+      <div class="row">
+        <button id="btnReview" class="btn" type="button">Revisar falladas</button>
+        <button id="btnHome" class="btn btn-primary" type="button">Volver al inicio</button>
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      <div>MACT • Simulador offline (demo). Puedes reemplazar el banco importando un <code>questions.json</code>.</div>
+    </footer>
+  </main>
+
+  <script src="questions.sample.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

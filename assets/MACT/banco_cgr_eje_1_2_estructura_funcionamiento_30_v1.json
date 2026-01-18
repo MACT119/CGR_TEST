@@ -1,0 +1,1111 @@
+{
+  "meta": {
+    "name": "Banco CGR – Competencias Básicas – Estructura y Funcionamiento de la CGR (30 preguntas)",
+    "version": "1.0.0",
+    "createdAt": "2026-01-18",
+    "axisOrder": 2,
+    "totalQuestions": 30,
+    "notes": "Banco de práctica alineado a ejes temáticos oficiales. Preguntas originales, no oficiales. JSON válido."
+  },
+  "questions": [
+    {
+      "id": "CB-CGR-001",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se analiza el mandato constitucional de la Contraloría.",
+      "question": "¿Cuál es la función principal de la Contraloría General de la República?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dirigir la política económica"
+        },
+        {
+          "id": "B",
+          "text": "Vigilar la gestión fiscal de la administración y de quienes manejen recursos públicos"
+        },
+        {
+          "id": "C",
+          "text": "Investigar delitos penales"
+        },
+        {
+          "id": "D",
+          "text": "Administrar justicia contenciosa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La CGR ejerce vigilancia de la gestión fiscal sobre la administración y particulares que manejen recursos públicos.",
+      "references": [],
+      "tags": [
+        "función",
+        "control fiscal"
+      ]
+    },
+    {
+      "id": "CB-CGR-002",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad pregunta si la CGR actúa antes de ejecutar el gasto.",
+      "question": "Según la Constitución, el control fiscal es:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Previo y universal"
+        },
+        {
+          "id": "B",
+          "text": "Posterior y selectivo"
+        },
+        {
+          "id": "C",
+          "text": "Judicial y permanente"
+        },
+        {
+          "id": "D",
+          "text": "Político y discrecional"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal se ejerce de manera posterior y selectiva.",
+      "references": [],
+      "tags": [
+        "posterior",
+        "selectivo"
+      ]
+    },
+    {
+      "id": "CB-CGR-003",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se discute el alcance del control frente a la administración.",
+      "question": "¿Qué enunciado describe mejor el alcance del control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Solo revisa legalidad formal"
+        },
+        {
+          "id": "B",
+          "text": "Evalúa la gestión de recursos públicos según principios y resultados"
+        },
+        {
+          "id": "C",
+          "text": "Impone sanciones penales"
+        },
+        {
+          "id": "D",
+          "text": "Reemplaza la gestión administrativa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal evalúa la gestión de los recursos públicos considerando principios y resultados.",
+      "references": [],
+      "tags": [
+        "alcance",
+        "gestión"
+      ]
+    },
+    {
+      "id": "CB-CGR-004",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Una entidad confunde control fiscal con control político.",
+      "question": "¿Cuál afirmación es correcta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ambos son idénticos"
+        },
+        {
+          "id": "B",
+          "text": "El control político corresponde al Congreso; el fiscal a la CGR"
+        },
+        {
+          "id": "C",
+          "text": "La CGR ejerce control político"
+        },
+        {
+          "id": "D",
+          "text": "El control fiscal sustituye al político"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control político lo ejerce el Congreso; la CGR ejerce control fiscal.",
+      "references": [],
+      "tags": [
+        "control político",
+        "competencias"
+      ]
+    },
+    {
+      "id": "CB-CGR-005",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se evalúa si el control fiscal implica coadministración.",
+      "question": "¿Cuál es la regla constitucional?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La CGR coadministra para prevenir riesgos"
+        },
+        {
+          "id": "B",
+          "text": "La CGR no coadministra; vigila de forma posterior"
+        },
+        {
+          "id": "C",
+          "text": "La CGR autoriza gastos"
+        },
+        {
+          "id": "D",
+          "text": "La CGR define políticas públicas"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La CGR no coadministra; su función es de vigilancia posterior.",
+      "references": [],
+      "tags": [
+        "no coadministración"
+      ]
+    },
+    {
+      "id": "CB-CGR-006",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Función constitucional",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad pregunta si el control fiscal se ejerce siempre sobre todos los procesos.",
+      "question": "¿Qué criterio constitucional permite priorizar?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Universalidad absoluta"
+        },
+        {
+          "id": "B",
+          "text": "Selectividad por riesgo/materialidad"
+        },
+        {
+          "id": "C",
+          "text": "Azar"
+        },
+        {
+          "id": "D",
+          "text": "Antigüedad del proceso"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La selectividad permite priorizar según riesgo e impacto.",
+      "references": [],
+      "tags": [
+        "selectividad",
+        "priorización"
+      ]
+    },
+    {
+      "id": "CB-CGR-007",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un particular administra anticipos de un contrato estatal.",
+      "question": "¿Puede ser sujeto de control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No, por ser privado"
+        },
+        {
+          "id": "B",
+          "text": "Sí, si maneja fondos o bienes públicos"
+        },
+        {
+          "id": "C",
+          "text": "Solo si recibe donaciones"
+        },
+        {
+          "id": "D",
+          "text": "Solo si es empresa pública"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Los particulares pueden ser sujetos de control cuando manejan recursos o bienes públicos.",
+      "references": [],
+      "tags": [
+        "sujetos",
+        "particulares"
+      ]
+    },
+    {
+      "id": "CB-CGR-008",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad territorial administra recursos propios y de la Nación.",
+      "question": "¿Procede el control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No, solo a nivel nacional"
+        },
+        {
+          "id": "B",
+          "text": "Sí, sobre todos los recursos públicos que administre"
+        },
+        {
+          "id": "C",
+          "text": "Solo sobre recursos propios"
+        },
+        {
+          "id": "D",
+          "text": "Solo sobre recursos nacionales"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal recae sobre todos los recursos públicos administrados.",
+      "references": [],
+      "tags": [
+        "territorial",
+        "recursos"
+      ]
+    },
+    {
+      "id": "CB-CGR-009",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una empresa industrial y comercial del Estado maneja recursos públicos.",
+      "question": "¿Está sujeta a control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No, por su naturaleza empresarial"
+        },
+        {
+          "id": "B",
+          "text": "Sí, por manejar recursos públicos"
+        },
+        {
+          "id": "C",
+          "text": "Solo si tiene pérdidas"
+        },
+        {
+          "id": "D",
+          "text": "Solo si recibe transferencias"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Las EICE manejan recursos públicos y están sujetas a control fiscal.",
+      "references": [],
+      "tags": [
+        "EICE",
+        "control"
+      ]
+    },
+    {
+      "id": "CB-CGR-010",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Una fundación privada ejecuta un convenio con recursos públicos.",
+      "question": "¿Qué criterio define la sujeción a control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Naturaleza jurídica"
+        },
+        {
+          "id": "B",
+          "text": "Origen/destino de los recursos públicos"
+        },
+        {
+          "id": "C",
+          "text": "Objeto social"
+        },
+        {
+          "id": "D",
+          "text": "Número de empleados"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Lo determinante es el manejo de recursos públicos.",
+      "references": [],
+      "tags": [
+        "criterio",
+        "recursos públicos"
+      ]
+    },
+    {
+      "id": "CB-CGR-011",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad pregunta si terceros contratistas pueden ser auditados.",
+      "question": "¿Cuál es la regla general?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nunca"
+        },
+        {
+          "id": "B",
+          "text": "Sí, cuando manejan recursos o bienes públicos"
+        },
+        {
+          "id": "C",
+          "text": "Solo con orden judicial"
+        },
+        {
+          "id": "D",
+          "text": "Solo en auditorías especiales"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control se extiende a quienes manejen recursos públicos.",
+      "references": [],
+      "tags": [
+        "contratistas"
+      ]
+    },
+    {
+      "id": "CB-CGR-012",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Sujetos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un operador recibe pagos por administrar un programa público.",
+      "question": "¿Qué condición activa el control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ser persona natural"
+        },
+        {
+          "id": "B",
+          "text": "Administrar recursos públicos"
+        },
+        {
+          "id": "C",
+          "text": "Tener contrato a término fijo"
+        },
+        {
+          "id": "D",
+          "text": "Ser del orden nacional"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Administrar recursos públicos activa la sujeción al control fiscal.",
+      "references": [],
+      "tags": [
+        "activación",
+        "administración"
+      ]
+    },
+    {
+      "id": "CB-CGR-013",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se diseña un plan de auditoría con enfoque en impacto.",
+      "question": "¿Qué principio lo respalda?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Universalidad"
+        },
+        {
+          "id": "B",
+          "text": "Selectividad"
+        },
+        {
+          "id": "C",
+          "text": "Coadministración"
+        },
+        {
+          "id": "D",
+          "text": "Secreto"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La selectividad prioriza según riesgo e impacto.",
+      "references": [],
+      "tags": [
+        "selectividad"
+      ]
+    },
+    {
+      "id": "CB-CGR-014",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se busca evaluar el uso óptimo de recursos.",
+      "question": "¿Qué principio se relaciona con obtener el mayor beneficio con los recursos disponibles?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economía"
+        },
+        {
+          "id": "B",
+          "text": "Legalidad"
+        },
+        {
+          "id": "C",
+          "text": "Publicidad"
+        },
+        {
+          "id": "D",
+          "text": "Autonomía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Economía orienta el uso racional de los recursos.",
+      "references": [],
+      "tags": [
+        "economía"
+      ]
+    },
+    {
+      "id": "CB-CGR-015",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se analiza si los objetivos del gasto se cumplieron.",
+      "question": "¿Qué principio se evalúa principalmente?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eficiencia"
+        },
+        {
+          "id": "B",
+          "text": "Publicidad"
+        },
+        {
+          "id": "C",
+          "text": "Imparcialidad"
+        },
+        {
+          "id": "D",
+          "text": "Reserva"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La eficiencia evalúa relación entre recursos y resultados.",
+      "references": [],
+      "tags": [
+        "eficiencia"
+      ]
+    },
+    {
+      "id": "CB-CGR-016",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se revisa si el gasto produjo resultados esperados.",
+      "question": "¿Qué principio se asocia a medir el logro de objetivos?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eficacia"
+        },
+        {
+          "id": "B",
+          "text": "Economía"
+        },
+        {
+          "id": "C",
+          "text": "Legalidad"
+        },
+        {
+          "id": "D",
+          "text": "Celeridad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La eficacia mide el cumplimiento de objetivos.",
+      "references": [],
+      "tags": [
+        "eficacia"
+      ]
+    },
+    {
+      "id": "CB-CGR-017",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se busca transparencia del proceso auditor.",
+      "question": "¿Qué principio garantiza acceso a información del control?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Publicidad"
+        },
+        {
+          "id": "B",
+          "text": "Reserva absoluta"
+        },
+        {
+          "id": "C",
+          "text": "Confidencialidad total"
+        },
+        {
+          "id": "D",
+          "text": "Discrecionalidad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La publicidad permite transparencia y control social.",
+      "references": [],
+      "tags": [
+        "publicidad"
+      ]
+    },
+    {
+      "id": "CB-CGR-018",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Principios del control fiscal",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Se confunde selectividad con arbitrariedad.",
+      "question": "¿Cuál es la diferencia correcta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Son equivalentes"
+        },
+        {
+          "id": "B",
+          "text": "Selectividad es técnica y justificada; arbitrariedad no"
+        },
+        {
+          "id": "C",
+          "text": "Arbitrariedad es permitida"
+        },
+        {
+          "id": "D",
+          "text": "Selectividad elimina controles"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La selectividad se basa en criterios técnicos; no es arbitraria.",
+      "references": [],
+      "tags": [
+        "criterios",
+        "técnicos"
+      ]
+    },
+    {
+      "id": "CB-CGR-019",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se comparan funciones de control.",
+      "question": "¿Qué diferencia clave existe entre Contraloría y Procuraduría?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ambas ejercen control fiscal"
+        },
+        {
+          "id": "B",
+          "text": "Contraloría: fiscal; Procuraduría: disciplinario/Ministerio Público"
+        },
+        {
+          "id": "C",
+          "text": "Contraloría: penal; Procuraduría: fiscal"
+        },
+        {
+          "id": "D",
+          "text": "No hay diferencia"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Cada órgano tiene competencias distintas.",
+      "references": [],
+      "tags": [
+        "contraloría",
+        "procuraduría"
+      ]
+    },
+    {
+      "id": "CB-CGR-020",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se analiza el rol de la Fiscalía.",
+      "question": "¿Cuál es su función frente al control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ejercer control fiscal"
+        },
+        {
+          "id": "B",
+          "text": "Investigar delitos penales"
+        },
+        {
+          "id": "C",
+          "text": "Auditar recursos"
+        },
+        {
+          "id": "D",
+          "text": "Imponer sanciones administrativas"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La Fiscalía investiga delitos penales; no ejerce control fiscal.",
+      "references": [],
+      "tags": [
+        "fiscalía",
+        "penal"
+      ]
+    },
+    {
+      "id": "CB-CGR-021",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad confunde funciones judiciales y fiscales.",
+      "question": "¿Quién administra justicia contenciosa?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Contraloría"
+        },
+        {
+          "id": "B",
+          "text": "Consejo de Estado y jurisdicción contenciosa"
+        },
+        {
+          "id": "C",
+          "text": "Procuraduría"
+        },
+        {
+          "id": "D",
+          "text": "Fiscalía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La justicia contenciosa corresponde a la jurisdicción competente.",
+      "references": [],
+      "tags": [
+        "jurisdicción"
+      ]
+    },
+    {
+      "id": "CB-CGR-022",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Se analiza coordinación entre órganos.",
+      "question": "¿Cuál enunciado es correcto?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Los órganos se sustituyen entre sí"
+        },
+        {
+          "id": "B",
+          "text": "Son autónomos y coordinados según competencias"
+        },
+        {
+          "id": "C",
+          "text": "La CGR dirige a los demás"
+        },
+        {
+          "id": "D",
+          "text": "No existe coordinación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Existe autonomía con coordinación funcional.",
+      "references": [],
+      "tags": [
+        "coordinación",
+        "autonomía"
+      ]
+    },
+    {
+      "id": "CB-CGR-023",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se pregunta por control ciudadano.",
+      "question": "¿Qué mecanismo permite participación de la ciudadanía en control?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Veedurías ciudadanas"
+        },
+        {
+          "id": "B",
+          "text": "Órdenes judiciales"
+        },
+        {
+          "id": "C",
+          "text": "Decretos"
+        },
+        {
+          "id": "D",
+          "text": "Circulares internas"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Las veedurías facilitan control social.",
+      "references": [],
+      "tags": [
+        "veedurías",
+        "control social"
+      ]
+    },
+    {
+      "id": "CB-CGR-024",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Órganos de control",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se analiza el rol de la Corte Constitucional.",
+      "question": "¿Qué función cumple frente al control fiscal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ejercer control fiscal"
+        },
+        {
+          "id": "B",
+          "text": "Controlar la constitucionalidad de normas"
+        },
+        {
+          "id": "C",
+          "text": "Auditar recursos"
+        },
+        {
+          "id": "D",
+          "text": "Dirigir política fiscal"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La Corte controla la constitucionalidad.",
+      "references": [],
+      "tags": [
+        "corte constitucional"
+      ]
+    },
+    {
+      "id": "CB-CGR-025",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se pregunta si la CGR puede ordenar políticas.",
+      "question": "¿Cuál es el límite constitucional?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Puede coadministrar"
+        },
+        {
+          "id": "B",
+          "text": "No define políticas; vigila gestión"
+        },
+        {
+          "id": "C",
+          "text": "Autoriza gastos"
+        },
+        {
+          "id": "D",
+          "text": "Aprueba presupuestos"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La CGR no define políticas ni autoriza gasto.",
+      "references": [],
+      "tags": [
+        "límites",
+        "no coadministración"
+      ]
+    },
+    {
+      "id": "CB-CGR-026",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se identifica un hallazgo sin evidencia suficiente.",
+      "question": "¿Qué debe hacerse antes de concluir?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Publicar de inmediato"
+        },
+        {
+          "id": "B",
+          "text": "Asegurar evidencia suficiente y adecuada"
+        },
+        {
+          "id": "C",
+          "text": "Cerrar el caso"
+        },
+        {
+          "id": "D",
+          "text": "Remitir sin análisis"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La evidencia es esencial para conclusiones válidas.",
+      "references": [],
+      "tags": [
+        "evidencia"
+      ]
+    },
+    {
+      "id": "CB-CGR-027",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se pregunta por el enfoque preventivo.",
+      "question": "¿Cuál afirmación es correcta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "El control fiscal es previo"
+        },
+        {
+          "id": "B",
+          "text": "Puede tener enfoque preventivo sin coadministrar"
+        },
+        {
+          "id": "C",
+          "text": "Sustituye controles internos"
+        },
+        {
+          "id": "D",
+          "text": "Autoriza actos"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El enfoque preventivo no implica control previo ni coadministración.",
+      "references": [],
+      "tags": [
+        "preventivo"
+      ]
+    },
+    {
+      "id": "CB-CGR-028",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Se confunde control fiscal con sanción penal.",
+      "question": "¿Cuál es la relación correcta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La CGR impone penas"
+        },
+        {
+          "id": "B",
+          "text": "La CGR puede remitir hallazgos a autoridades competentes"
+        },
+        {
+          "id": "C",
+          "text": "La CGR juzga delitos"
+        },
+        {
+          "id": "D",
+          "text": "No hay relación"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La CGR remite hallazgos cuando hay mérito; no juzga penalmente.",
+      "references": [],
+      "tags": [
+        "remisión",
+        "competencias"
+      ]
+    },
+    {
+      "id": "CB-CGR-029",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se revisa la articulación con control interno.",
+      "question": "¿Qué relación es correcta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "El control interno reemplaza al fiscal"
+        },
+        {
+          "id": "B",
+          "text": "Son complementarios con funciones distintas"
+        },
+        {
+          "id": "C",
+          "text": "La CGR dirige el control interno"
+        },
+        {
+          "id": "D",
+          "text": "No se relacionan"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Control interno y fiscal son complementarios.",
+      "references": [],
+      "tags": [
+        "control interno",
+        "complementariedad"
+      ]
+    },
+    {
+      "id": "CB-CGR-030",
+      "module": "Competencias básicas",
+      "axis": "Estructura y Funcionamiento de la CGR",
+      "subAxis": "Etapas y límites",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se evalúa el objetivo último del control fiscal.",
+      "question": "¿Cuál es el propósito central?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Castigar a funcionarios"
+        },
+        {
+          "id": "B",
+          "text": "Proteger los recursos públicos y mejorar la gestión"
+        },
+        {
+          "id": "C",
+          "text": "Aumentar trámites"
+        },
+        {
+          "id": "D",
+          "text": "Sustituir a la administración"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El control fiscal busca proteger recursos públicos y mejorar la gestión.",
+      "references": [],
+      "tags": [
+        "propósito",
+        "mejora"
+      ]
+    }
+  ]
+}

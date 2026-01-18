@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "source": "Ejemplo educativo (contenido propio)",
+    "updatedAt": "2026-01-15",
+    "schema": "CGR_TEST_BANK_V1"
+  },
+  "questions": [
+    {
+      "id": "BAS-CONST-001",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Estructura del Estado",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "",
+      "question": "En términos generales, ¿qué caracteriza al control fiscal a cargo de la Contraloría?",
+      "choices": [
+        { "id": "A", "text": "Es un control previo y automático de cada gasto antes de ejecutarse." },
+        { "id": "B", "text": "Es un control posterior y selectivo sobre la gestión fiscal." },
+        { "id": "C", "text": "Es un control judicial que impone penas privativas de la libertad." },
+        { "id": "D", "text": "Es un control exclusivo sobre entidades privadas sin recursos públicos." }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "Como regla general, el control fiscal es posterior y selectivo sobre la gestión fiscal; el componente preventivo/concomitante no equivale a un control previo de ejecución del gasto.",
+      "references": [{ "type": "temario", "text": "Eje: estructura institucional y control fiscal (temario publicado)." }],
+      "tags": ["control fiscal", "CGR"]
+    },
+    {
+      "id": "BAS-PET-001",
+      "module": "Competencias básicas",
+      "axis": "Derecho de petición (PQRS)",
+      "subAxis": "Principios",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "",
+      "question": "En un trámite de petición, ¿qué elemento es esencial para un manejo adecuado en una entidad pública?",
+      "choices": [
+        { "id": "A", "text": "No dejar evidencia del radicado para evitar reclamaciones." },
+        { "id": "B", "text": "Registrar, hacer trazabilidad y responder dentro de los términos legales aplicables." },
+        { "id": "C", "text": "Responder solo si el ciudadano insiste dos veces." },
+        { "id": "D", "text": "Responder verbalmente sin dejar constancia." }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "La trazabilidad (radicado, gestión y respuesta) y el cumplimiento de términos son prácticas mínimas para PQRS y derecho de petición.",
+      "references": [{ "type": "temario", "text": "Eje: derecho de petición y atención al ciudadano (temario publicado)." }],
+      "tags": ["PQRS", "derecho de petición"]
+    },
+    {
+      "id": "TI-SEC-001",
+      "module": "Competencias específicas (TI)",
+      "axis": "Seguridad de la información",
+      "subAxis": "Gestión de riesgos",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "",
+      "question": "En un enfoque tipo ISO 27001, ¿cuál es un paso clave para gestionar riesgos de seguridad?",
+      "choices": [
+        { "id": "A", "text": "Aplicar controles sin evaluar amenazas ni activos." },
+        { "id": "B", "text": "Identificar activos, amenazas/vulnerabilidades y tratar los riesgos según criterios." },
+        { "id": "C", "text": "Cambiar contraseñas cada semana como única medida." },
+        { "id": "D", "text": "Desactivar logs para mejorar rendimiento." }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "La gestión de riesgos exige identificar activos y escenarios de riesgo, evaluar y definir tratamiento (mitigar, transferir, aceptar, evitar) y controles.",
+      "references": [{ "type": "temario", "text": "Eje: ISO 27001 / Seguridad de la información (temario publicado)." }],
+      "tags": ["ISO27001", "riesgos"]
+    },
+    {
+      "id": "TI-ITIL-001",
+      "module": "Competencias específicas (TI)",
+      "axis": "ITIL",
+      "subAxis": "Gestión de incidentes",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "",
+      "question": "En ITIL, ¿cuál es el propósito principal de la gestión de incidentes?",
+      "choices": [
+        { "id": "A", "text": "Eliminar la causa raíz de problemas complejos." },
+        { "id": "B", "text": "Restaurar el servicio lo más rápido posible y minimizar el impacto." },
+        { "id": "C", "text": "Definir la arquitectura objetivo de TI." },
+        { "id": "D", "text": "Aprobar presupuestos anuales de TI." }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "Incidentes: restaurar servicio y reducir impacto; la causa raíz suele ser foco de gestión de problemas.",
+      "references": [{ "type": "temario", "text": "Eje: ITIL (temario publicado)." }],
+      "tags": ["ITIL", "incidentes"]
+    },
+    {
+      "id": "COMP-INT-001",
+      "module": "Competencias comportamentales",
+      "axis": "Integridad",
+      "subAxis": "Ética pública",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "",
+      "question": "¿Cuál conducta refleja mejor integridad en el servicio público?",
+      "choices": [
+        { "id": "A", "text": "Ocultar un error para evitar reproches." },
+        { "id": "B", "text": "Reportar un conflicto de interés y abstenerse cuando aplique." },
+        { "id": "C", "text": "Compartir información reservada con amigos." },
+        { "id": "D", "text": "Ajustar cifras sin sustento para cumplir metas." }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "Integridad implica transparencia, manejo de conflictos de interés y respeto por la reserva de información.",
+      "references": [{ "type": "competencia", "text": "Competencia comportamental: integridad (temario publicado)." }],
+      "tags": ["integridad", "ética"]
+    }
+  ]
+}

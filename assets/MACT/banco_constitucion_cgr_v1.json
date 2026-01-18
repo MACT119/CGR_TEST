@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "name": "Banco CGR – Competencias Básicas – Constitución Política",
+    "version": "1.0.0",
+    "axisOrder": 1,
+    "totalQuestions": 25,
+    "notes": "Banco de práctica alineado a ejes temáticos oficiales. Preguntas originales, no oficiales."
+  },
+  "questions": [
+
+    {
+      "id": "CB-CONST-001",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad pública diseña un procedimiento interno para la atención de ciudadanos.",
+      "question": "¿Qué principio constitucional obliga a las autoridades a actuar únicamente conforme a la Constitución y la ley?",
+      "choices": [
+        { "id": "A", "text": "Principio de legalidad" },
+        { "id": "B", "text": "Principio de solidaridad" },
+        { "id": "C", "text": "Principio de favorabilidad" },
+        { "id": "D", "text": "Principio de autonomía" }
+      ],
+      "answer": { "correctChoiceId": "A" },
+      "explanation": "El principio de legalidad rige toda actuación administrativa y exige competencia y fundamento normativo.",
+      "tags": ["legalidad"]
+    },
+
+    {
+      "id": "CB-CONST-002",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una decisión administrativa beneficia a un grupo reducido en perjuicio de la colectividad.",
+      "question": "¿Qué principio constitucional resulta vulnerado principalmente?",
+      "choices": [
+        { "id": "A", "text": "Economía" },
+        { "id": "B", "text": "Prevalencia del interés general" },
+        { "id": "C", "text": "Autonomía territorial" },
+        { "id": "D", "text": "Igualdad" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "El interés general debe prevalecer sobre intereses particulares en el Estado Social de Derecho.",
+      "tags": ["interés general"]
+    },
+
+    {
+      "id": "CB-CONST-003",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Un ciudadano solicita información a una entidad pública.",
+      "question": "¿Qué derecho fundamental ejerce directamente?",
+      "choices": [
+        { "id": "A", "text": "Derecho a la igualdad" },
+        { "id": "B", "text": "Derecho de petición" },
+        { "id": "C", "text": "Derecho al trabajo" },
+        { "id": "D", "text": "Derecho a la intimidad" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "El derecho de petición permite presentar solicitudes respetuosas y obtener respuesta de fondo.",
+      "tags": ["derecho de petición"]
+    },
+
+    {
+      "id": "CB-CONST-004",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad impone una sanción sin permitir descargos.",
+      "question": "¿Qué derecho fundamental se vulnera principalmente?",
+      "choices": [
+        { "id": "A", "text": "Derecho a la igualdad" },
+        { "id": "B", "text": "Derecho al debido proceso" },
+        { "id": "C", "text": "Derecho a la honra" },
+        { "id": "D", "text": "Derecho de petición" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "El debido proceso aplica a toda actuación administrativa que afecte derechos.",
+      "tags": ["debido proceso"]
+    },
+
+    {
+      "id": "CB-CONST-005",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Derechos fundamentales",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Una entidad niega injustificadamente acceso a información pública.",
+      "question": "Además del derecho de petición, ¿qué otro derecho puede verse afectado?",
+      "choices": [
+        { "id": "A", "text": "Derecho a la información" },
+        { "id": "B", "text": "Derecho a la vida" },
+        { "id": "C", "text": "Derecho a la intimidad" },
+        { "id": "D", "text": "Derecho a la honra" }
+      ],
+      "answer": { "correctChoiceId": "A" },
+      "explanation": "El acceso a información pública se relaciona directamente con el derecho a la información.",
+      "tags": ["información pública"]
+    },
+
+    {
+      "id": "CB-CONST-006",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un derecho fundamental está siendo vulnerado y no existe otro medio judicial eficaz.",
+      "question": "¿Qué mecanismo constitucional procede?",
+      "choices": [
+        { "id": "A", "text": "Acción popular" },
+        { "id": "B", "text": "Acción de tutela" },
+        { "id": "C", "text": "Acción de grupo" },
+        { "id": "D", "text": "Acción de cumplimiento" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "La tutela es el mecanismo preferente para la protección inmediata de derechos fundamentales.",
+      "tags": ["tutela"]
+    },
+
+    {
+      "id": "CB-CONST-007",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Mecanismos de protección",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se busca proteger derechos colectivos como el medio ambiente.",
+      "question": "¿Qué acción constitucional es la más adecuada?",
+      "choices": [
+        { "id": "A", "text": "Acción de tutela" },
+        { "id": "B", "text": "Acción popular" },
+        { "id": "C", "text": "Acción de cumplimiento" },
+        { "id": "D", "text": "Acción de grupo" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "Las acciones populares protegen derechos e intereses colectivos.",
+      "tags": ["derechos colectivos"]
+    },
+
+    {
+      "id": "CB-CONST-008",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Organización del Estado",
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Se analiza la estructura del Estado colombiano.",
+      "question": "La Contraloría General de la República es un:",
+      "choices": [
+        { "id": "A", "text": "Órgano de control" },
+        { "id": "B", "text": "Órgano legislativo" },
+        { "id": "C", "text": "Órgano judicial" },
+        { "id": "D", "text": "Órgano ejecutivo" }
+      ],
+      "answer": { "correctChoiceId": "A" },
+      "explanation": "La CGR es un órgano de control con autonomía administrativa y presupuestal.",
+      "tags": ["órganos de control"]
+    },
+
+    {
+      "id": "CB-CONST-009",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Control fiscal",
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Se evalúa el modelo constitucional de vigilancia fiscal.",
+      "question": "El control fiscal en Colombia es:",
+      "choices": [
+        { "id": "A", "text": "Previo y universal" },
+        { "id": "B", "text": "Posterior y selectivo" },
+        { "id": "C", "text": "Judicial y permanente" },
+        { "id": "D", "text": "Político y discrecional" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "La Constitución define el control fiscal como posterior y selectivo.",
+      "tags": ["control fiscal"]
+    },
+
+    {
+      "id": "CB-CONST-010",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "Principios constitucionales",
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Una autoridad actúa sin competencia legal.",
+      "question": "¿Qué principio constitucional se vulnera directamente?",
+      "choices": [
+        { "id": "A", "text": "Eficacia" },
+        { "id": "B", "text": "Legalidad" },
+        { "id": "C", "text": "Economía" },
+        { "id": "D", "text": "Publicidad" }
+      ],
+      "answer": { "correctChoiceId": "B" },
+      "explanation": "Actuar sin competencia vulnera el principio de legalidad.",
+      "tags": ["competencia"]
+    }
+  ]
+}
