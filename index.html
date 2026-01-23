@@ -79,23 +79,10 @@
 
         <div>
           <h2>Progreso</h2>
-          <div class="kpi" style="margin-top:8px">
-            <div class="box">
-              <div class="num" id="kpiTotal">0</div>
-              <div class="lbl">Preguntas en banco</div>
-            </div>
-            <div class="box">
-              <div class="num" id="kpiScore">—</div>
-              <div class="lbl">Último resultado</div>
-            </div>
-            <div class="box">
-              <div class="num" id="kpiStreak">—</div>
-              <div class="lbl">Racha (≥70%)</div>
-            </div>
-          </div>
+          <div class="stats" id="statsBox"></div>
           <div class="divider"></div>
           <h3>Historial reciente</h3>
-          <div id="historyBox" class="history muted small">(En esta versión demo no se muestra el historial en pantalla. Se conserva localmente y se exporta.)</div>
+          <div id="historyBox" class="history"></div>
         </div>
       </div>
     </section>
@@ -103,19 +90,24 @@
     <section class="card hidden" id="quizCard" aria-live="polite">
       <div class="quiz-top">
         <div>
-          <div class="pill" id="qAxis"></div>
+          <div class="pill" id="pillAxis"></div>
           <h2 id="qTitle">Pregunta</h2>
-          <div class="muted" id="qMeta">
-            <span id="qIndex">1</span>/<span id="qTotal">1</span>
-            <span class="muted">•</span>
-            <span id="qModule"></span>
-          </div>
+          <div class="muted" id="qMeta"></div>
         </div>
-        <div class="timer" id="timerBadge">
+        <div class="timer">
           <div class="timer-label">Tiempo</div>
-          <div class="timer-value" id="timerText">—</div>
+          <div class="timer-value" id="timerValue">—</div>
         </div>
       </div>
+
+      <!-- Escenario (opcional): algunos bancos traen un escenario largo compartido por varias preguntas -->
+      <details class="scenario hidden" id="scenarioDetails">
+        <summary>
+          <span class="scenario-label">Escenario</span>
+          <span class="scenario-title" id="scenarioTitle"></span>
+        </summary>
+        <div class="scenario-text" id="scenarioText"></div>
+      </details>
 
       <div class="stem" id="qStem"></div>
       <div class="question" id="qText"></div>
@@ -123,16 +115,6 @@
       <form id="choicesForm" class="choices"></form>
 
       <div class="feedback hidden" id="feedbackBox"></div>
-
-      <div class="divider"></div>
-      <div class="row" style="justify-content:space-between;gap:10px;flex-wrap:wrap">
-        <div class="row" style="gap:12px;flex-wrap:wrap">
-          <span class="badge">Respondidas: <strong id="statAnswered">0</strong></span>
-          <span class="badge">Restantes: <strong id="statRemaining">0</strong></span>
-          <span class="badge">Marcadas: <strong id="statFlagged">0</strong></span>
-        </div>
-      </div>
-      <div id="progressList" class="row" style="flex-wrap:wrap;gap:6px;margin-top:10px"></div>
 
       <div class="row space-between">
         <button id="btnPrev" class="btn btn-ghost" type="button">Anterior</button>
