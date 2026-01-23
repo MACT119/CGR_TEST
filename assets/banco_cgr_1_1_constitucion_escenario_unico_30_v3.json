@@ -1,0 +1,1088 @@
+{
+  "meta": {
+    "name": "Banco CGR – 1.1 Constitución Política – Escenario Único (30 preguntas) – Alta dificultad",
+    "version": "3.0.0",
+    "createdAt": "2026-01-21",
+    "structure": "escenario_unico",
+    "hierarchy": {
+      "level1": "PRUEBAS DE COMPETENCIAS FUNCIONALES",
+      "level2": "1. COMPETENCIAS BÁSICAS",
+      "level3": "1.1 Constitución Política",
+      "level4": [
+        "1.1.1 Principios fundamentales",
+        "1.1.2 Derechos fundamentales",
+        "1.1.3 Mecanismos de protección"
+      ]
+    },
+    "distribution": {
+      "1.1.1 Principios fundamentales": 10,
+      "1.1.2 Derechos fundamentales": 10,
+      "1.1.3 Mecanismos de protección": 10
+    },
+    "difficultyProfile": "Predominan niveles 4 (análisis) y 3 (aplicación).",
+    "notes": "Banco de entrenamiento riguroso con preguntas encadenadas sobre un escenario institucional extenso. JSON válido."
+  },
+  "scenario": {
+    "id": "ESC-CP-001",
+    "title": "Actuación administrativa frente a población vulnerable y acceso a servicios públicos",
+    "text": "La entidad pública XYZ, del orden nacional, administra un programa de acceso a un beneficio económico dirigido a personas en condición de vulnerabilidad. Debido a restricciones presupuestales, la entidad decide modificar los criterios de acceso al programa mediante una circular interna, estableciendo requisitos adicionales no previstos en la norma que regula el programa. \n\nComo consecuencia, varios ciudadanos quedan excluidos del beneficio sin una motivación clara ni criterios objetivos de priorización. Entre los excluidos se encuentran personas con discapacidad y adultos mayores. La entidad publica en su página web listados con nombres completos, números de identificación y condición de salud de los beneficiarios, argumentando el principio de transparencia.\n\nAlgunos ciudadanos presentan derechos de petición solicitando explicación detallada de la exclusión y la eliminación de sus datos personales del sitio web. La entidad responde dentro del término legal, pero con respuestas genéricas que no abordan los puntos específicos planteados. Posteriormente, uno de los ciudadanos interpone acción de tutela alegando vulneración de derechos fundamentales."
+  },
+  "questions": [
+    {
+      "id": "ESC-CP-001-Q01",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "Según el escenario, ¿qué principio constitucional se ve comprometido inicialmente por la imposición de requisitos no previstos en la norma?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Solidaridad"
+        },
+        {
+          "id": "B",
+          "text": "Legalidad"
+        },
+        {
+          "id": "C",
+          "text": "Pluralismo"
+        },
+        {
+          "id": "D",
+          "text": "Autonomía territorial"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La administración solo puede exigir requisitos con fundamento normativo; imponer requisitos adicionales vulnera el principio de legalidad.",
+      "references": [],
+      "tags": [
+        "legalidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q02",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La exclusión de personas con discapacidad sin criterios objetivos afecta principalmente:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economía"
+        },
+        {
+          "id": "B",
+          "text": "Igualdad material"
+        },
+        {
+          "id": "C",
+          "text": "Celeridad"
+        },
+        {
+          "id": "D",
+          "text": "Soberanía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La igualdad material exige trato diferenciado a favor de grupos en situación de vulnerabilidad.",
+      "references": [],
+      "tags": [
+        "igualdad material"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q03",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La circular interna utilizada para modificar requisitos debe evaluarse frente a:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Costumbre administrativa"
+        },
+        {
+          "id": "B",
+          "text": "Jerarquía normativa y supremacía constitucional"
+        },
+        {
+          "id": "C",
+          "text": "Conveniencia política"
+        },
+        {
+          "id": "D",
+          "text": "Autonomía funcional"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Los actos internos deben respetar la jerarquía normativa y no contradecir normas superiores.",
+      "references": [],
+      "tags": [
+        "jerarquía normativa"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q04",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La publicación de datos sensibles bajo el argumento de transparencia exige armonizar el principio de publicidad con:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eficiencia"
+        },
+        {
+          "id": "B",
+          "text": "Protección de datos y dignidad humana"
+        },
+        {
+          "id": "C",
+          "text": "Economía"
+        },
+        {
+          "id": "D",
+          "text": "Celeridad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La publicidad no es absoluta y debe armonizarse con la protección de datos personales y la dignidad.",
+      "references": [],
+      "tags": [
+        "publicidad",
+        "protección de datos"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q05",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La falta de criterios objetivos de priorización compromete el principio de:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Motivación y razonabilidad"
+        },
+        {
+          "id": "B",
+          "text": "Descentralización"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía privada"
+        },
+        {
+          "id": "D",
+          "text": "Libre empresa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Las decisiones administrativas deben estar motivadas y ser razonables.",
+      "references": [],
+      "tags": [
+        "motivación",
+        "razonabilidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q06",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La actuación descrita se analiza dentro del modelo de:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Estado liberal"
+        },
+        {
+          "id": "B",
+          "text": "Estado Social de Derecho"
+        },
+        {
+          "id": "C",
+          "text": "Estado confesional"
+        },
+        {
+          "id": "D",
+          "text": "Estado mínimo"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El Estado Social de Derecho exige protección reforzada a poblaciones vulnerables.",
+      "references": [],
+      "tags": [
+        "estado social de derecho"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q07",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "Exigir desplazamientos presenciales innecesarios afecta principalmente:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pluralismo"
+        },
+        {
+          "id": "B",
+          "text": "Eficiencia y economía"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía"
+        },
+        {
+          "id": "D",
+          "text": "Soberanía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Imponer cargas innecesarias vulnera los principios de eficiencia y economía.",
+      "references": [],
+      "tags": [
+        "eficiencia",
+        "economía"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q08",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La ausencia de motivación clara en la exclusión del programa compromete:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Publicidad"
+        },
+        {
+          "id": "B",
+          "text": "Debido proceso administrativo"
+        },
+        {
+          "id": "C",
+          "text": "Libre competencia"
+        },
+        {
+          "id": "D",
+          "text": "Reserva"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El debido proceso administrativo exige decisiones motivadas.",
+      "references": [],
+      "tags": [
+        "debido proceso"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q09",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La priorización presupuestal sin enfoque diferencial desconoce principalmente:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Interés general"
+        },
+        {
+          "id": "B",
+          "text": "Igualdad material"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía territorial"
+        },
+        {
+          "id": "D",
+          "text": "Pluralismo"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El enfoque diferencial es expresión de la igualdad material.",
+      "references": [],
+      "tags": [
+        "igualdad material"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q10",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.1 Principios fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "El argumento de falta de recursos no exime a la entidad de aplicar:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Discrecionalidad absoluta"
+        },
+        {
+          "id": "B",
+          "text": "Principios de razonabilidad y proporcionalidad"
+        },
+        {
+          "id": "C",
+          "text": "Reserva administrativa"
+        },
+        {
+          "id": "D",
+          "text": "Costumbre"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Aun con restricciones presupuestales, las medidas deben ser razonables y proporcionales.",
+      "references": [],
+      "tags": [
+        "proporcionalidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q11",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La divulgación del estado de salud vulnera principalmente los derechos a:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Trabajo y educación"
+        },
+        {
+          "id": "B",
+          "text": "Intimidad y habeas data"
+        },
+        {
+          "id": "C",
+          "text": "Petición y asociación"
+        },
+        {
+          "id": "D",
+          "text": "Libre locomoción"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Los datos de salud son sensibles y están protegidos por el derecho a la intimidad y habeas data.",
+      "references": [],
+      "tags": [
+        "intimidad",
+        "habeas data"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q12",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La respuesta genérica al derecho de petición vulnera:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Solo el término legal"
+        },
+        {
+          "id": "B",
+          "text": "El derecho a una respuesta de fondo"
+        },
+        {
+          "id": "C",
+          "text": "La libertad de expresión"
+        },
+        {
+          "id": "D",
+          "text": "La reserva legal"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El derecho de petición exige respuesta de fondo, no solo formal.",
+      "references": [],
+      "tags": [
+        "derecho de petición"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q13",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La exclusión injustificada del programa compromete directamente la dignidad humana porque:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reduce el presupuesto"
+        },
+        {
+          "id": "B",
+          "text": "Trata a la persona como un medio y no como un fin"
+        },
+        {
+          "id": "C",
+          "text": "Genera congestión"
+        },
+        {
+          "id": "D",
+          "text": "Es una decisión política"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La dignidad implica reconocer a la persona como fin en sí misma.",
+      "references": [],
+      "tags": [
+        "dignidad humana"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q14",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "El impacto sobre adultos mayores puede afectar de manera inmediata el:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Derecho al ocio"
+        },
+        {
+          "id": "B",
+          "text": "Mínimo vital"
+        },
+        {
+          "id": "C",
+          "text": "Derecho al voto"
+        },
+        {
+          "id": "D",
+          "text": "Derecho de reunión"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La exclusión de beneficios puede comprometer el mínimo vital.",
+      "references": [],
+      "tags": [
+        "mínimo vital"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q15",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La ausencia de canales accesibles para personas con discapacidad afecta:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eficiencia"
+        },
+        {
+          "id": "B",
+          "text": "Accesibilidad como dimensión de la igualdad"
+        },
+        {
+          "id": "C",
+          "text": "Libre empresa"
+        },
+        {
+          "id": "D",
+          "text": "Soberanía"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La accesibilidad es parte de la igualdad material.",
+      "references": [],
+      "tags": [
+        "accesibilidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q16",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La exigencia de información innecesaria para acceder al beneficio vulnera:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Libertad de culto"
+        },
+        {
+          "id": "B",
+          "text": "Intimidad"
+        },
+        {
+          "id": "C",
+          "text": "Derecho al ocio"
+        },
+        {
+          "id": "D",
+          "text": "Derecho al deporte"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Solicitar datos no pertinentes vulnera el derecho a la intimidad.",
+      "references": [],
+      "tags": [
+        "intimidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q17",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "El tratamiento de datos personales sin autorización ni finalidad legítima desconoce:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Principio de buena fe"
+        },
+        {
+          "id": "B",
+          "text": "Principios de finalidad y necesidad del habeas data"
+        },
+        {
+          "id": "C",
+          "text": "Economía"
+        },
+        {
+          "id": "D",
+          "text": "Celeridad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El habeas data exige finalidad legítima y necesidad en el tratamiento de datos.",
+      "references": [],
+      "tags": [
+        "habeas data",
+        "finalidad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q18",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La omisión de pronunciamiento específico en la respuesta afecta además:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Debido proceso administrativo"
+        },
+        {
+          "id": "B",
+          "text": "Autonomía"
+        },
+        {
+          "id": "C",
+          "text": "Pluralismo"
+        },
+        {
+          "id": "D",
+          "text": "Reserva"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La falta de respuesta de fondo afecta el debido proceso.",
+      "references": [],
+      "tags": [
+        "debido proceso"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q19",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La exclusión sin motivación puede considerarse una forma de:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Discriminación indirecta"
+        },
+        {
+          "id": "B",
+          "text": "Descentralización"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía privada"
+        },
+        {
+          "id": "D",
+          "text": "Reserva legal"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "Medidas aparentemente neutras pueden generar discriminación indirecta.",
+      "references": [],
+      "tags": [
+        "discriminación indirecta"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q20",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.2 Derechos fundamentales",
+      "difficulty": 3,
+      "type": "single",
+      "question": "El derecho que permite exigir corrección o eliminación de datos publicados es:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Derecho de petición"
+        },
+        {
+          "id": "B",
+          "text": "Habeas data"
+        },
+        {
+          "id": "C",
+          "text": "Tutela"
+        },
+        {
+          "id": "D",
+          "text": "Acción popular"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "El habeas data permite actualizar, rectificar o suprimir datos personales.",
+      "references": [],
+      "tags": [
+        "habeas data"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q21",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La procedencia de la tutela debe analizarse frente al principio de:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economía"
+        },
+        {
+          "id": "B",
+          "text": "Subsidiariedad"
+        },
+        {
+          "id": "C",
+          "text": "Publicidad"
+        },
+        {
+          "id": "D",
+          "text": "Celeridad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela es subsidiaria frente a otros medios judiciales.",
+      "references": [],
+      "tags": [
+        "subsidiariedad"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q22",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "question": "El juez de tutela deberá verificar si existe:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Interés político"
+        },
+        {
+          "id": "B",
+          "text": "Perjuicio irremediable"
+        },
+        {
+          "id": "C",
+          "text": "Mayoría simple"
+        },
+        {
+          "id": "D",
+          "text": "Reserva administrativa"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela procede excepcionalmente si hay perjuicio irremediable.",
+      "references": [],
+      "tags": [
+        "perjuicio irremediable"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q23",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 4,
+      "type": "single",
+      "question": "Si el derecho de petición sigue siendo vulnerado, la tutela es idónea porque:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sustituye a la administración"
+        },
+        {
+          "id": "B",
+          "text": "Protege derechos fundamentales de forma inmediata"
+        },
+        {
+          "id": "C",
+          "text": "Indemniza perjuicios"
+        },
+        {
+          "id": "D",
+          "text": "Declara nulidades"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela es un mecanismo inmediato de protección de derechos fundamentales.",
+      "references": [],
+      "tags": [
+        "tutela"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q24",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "question": "Para la protección del derecho colectivo a la moralidad administrativa sería procedente:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tutela"
+        },
+        {
+          "id": "B",
+          "text": "Acción popular"
+        },
+        {
+          "id": "C",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "D",
+          "text": "Habeas corpus"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Las acciones populares protegen derechos colectivos.",
+      "references": [],
+      "tags": [
+        "acción popular"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q25",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La eliminación de datos personales publicados indebidamente puede ordenarse mediante:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de cumplimiento"
+        },
+        {
+          "id": "B",
+          "text": "Tutela"
+        },
+        {
+          "id": "C",
+          "text": "Acción de grupo"
+        },
+        {
+          "id": "D",
+          "text": "Inconstitucionalidad"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela puede ordenar cesar vulneraciones a derechos fundamentales, incluida la protección de datos.",
+      "references": [],
+      "tags": [
+        "tutela",
+        "protección de datos"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q26",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "question": "La acción de grupo sería pertinente principalmente para:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proteger derechos fundamentales individuales"
+        },
+        {
+          "id": "B",
+          "text": "Reclamar indemnización de perjuicios a varias personas"
+        },
+        {
+          "id": "C",
+          "text": "Control abstracto de normas"
+        },
+        {
+          "id": "D",
+          "text": "Exigir cumplimiento de la ley"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La acción de grupo busca la reparación de perjuicios a un conjunto de personas.",
+      "references": [],
+      "tags": [
+        "acción de grupo"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q27",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La existencia de otros medios judiciales no excluye la tutela cuando:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La entidad es nacional"
+        },
+        {
+          "id": "B",
+          "text": "No son eficaces para evitar un perjuicio irremediable"
+        },
+        {
+          "id": "C",
+          "text": "El juez lo considere conveniente"
+        },
+        {
+          "id": "D",
+          "text": "Hay congestión judicial"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela procede de forma excepcional ante perjuicio irremediable.",
+      "references": [],
+      "tags": [
+        "perjuicio irremediable"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q28",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "question": "Si se busca únicamente el cumplimiento de una norma clara e incumplida, procede:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Acción de cumplimiento"
+        },
+        {
+          "id": "B",
+          "text": "Tutela"
+        },
+        {
+          "id": "C",
+          "text": "Acción popular"
+        },
+        {
+          "id": "D",
+          "text": "Habeas data"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "A"
+      },
+      "explanation": "La acción de cumplimiento busca hacer efectiva una norma o acto administrativo.",
+      "references": [],
+      "tags": [
+        "acción de cumplimiento"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q29",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 4,
+      "type": "single",
+      "question": "La tutela contra la entidad es viable porque esta actúa como:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Particular sin funciones"
+        },
+        {
+          "id": "B",
+          "text": "Autoridad pública"
+        },
+        {
+          "id": "C",
+          "text": "Órgano judicial"
+        },
+        {
+          "id": "D",
+          "text": "Empresa privada"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "La tutela procede contra autoridades públicas.",
+      "references": [],
+      "tags": [
+        "tutela contra autoridades"
+      ]
+    },
+    {
+      "id": "ESC-CP-001-Q30",
+      "module": "Competencias básicas",
+      "axis": "Constitución Política",
+      "subAxis": "1.1.3 Mecanismos de protección",
+      "difficulty": 3,
+      "type": "single",
+      "question": "El juez de tutela, al conceder el amparo, debe impartir órdenes:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Abstractas"
+        },
+        {
+          "id": "B",
+          "text": "Concretas, claras y proporcionales"
+        },
+        {
+          "id": "C",
+          "text": "Políticas"
+        },
+        {
+          "id": "D",
+          "text": "Presupuestales"
+        }
+      ],
+      "answer": {
+        "correctChoiceId": "B"
+      },
+      "explanation": "Las órdenes de tutela deben ser claras, concretas y proporcionales para restablecer el derecho.",
+      "references": [],
+      "tags": [
+        "órdenes de tutela"
+      ]
+    }
+  ]
+}
